@@ -1,0 +1,80 @@
+body {
+  margin: 0px;
+  font-family: verdana, helvetica, arial, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+#contact_me {
+  color:blue;
+  text-decoration: underline;
+}
+
+#topbar {
+  background-color: #7B0000;
+  height: 40px;
+  width: 100%;
+  color: white;
+  font-family: arial, helvetica, sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.fixedwidth {
+  width: 100%;
+  padding-left: 12%;
+}
+
+#menuitems {
+  float: left;
+}
+
+#menuitems ul {
+  list-style: none;
+  margin: 0;
+  padding: 0px;
+}
+
+#menuitems li {
+  font-size: 13px;
+  float: left;
+  padding: 11px 16px 14px 15px;
+  border-right: #990000 1px solid;
+}
+
+#name {
+  color:yellow;
+}
+
+#searchbar {
+  float: left;
+  padding: 8px 0px 0px 8px;
+}
+
+#searchbar input {
+  height: 21px;
+  width: 300px;
+  border: 0;
+  padding-left: 7px;
+  font-weight: bold;
+  color: black;
+}
+
+#searchbar img {
+  float: right;
+  position: relative;
+  height: 20px;
+  bottom: 22px;
+}
+
+.content {
+  width: 100%;
+  background-color: white;
+  color: black;
+  font-size: .85em;
+  position: relative;
+  left: 168px;
+}
